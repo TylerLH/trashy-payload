@@ -1,0 +1,16 @@
+{
+  "name": "trashy-payload",
+  "version": "1.0.0",
+  "description": "Simple demo of sending trash files in a page to arbitrarily increase payload size",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=development bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Hughes <iampbt@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
